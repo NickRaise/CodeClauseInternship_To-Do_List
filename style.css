@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    margin: 50px auto 20px;
+    width: 400px;
+    padding: 10px;
+    text-align: center;
+    /* border: 1px solid orange; */
+}
+
+.container > h1 {
+    color: white;
+}
+
+.add-text {
+    padding: 5px;
+    width: 300px;
+    border: 2px solid rgb(2, 17, 17);
+    border-radius: 5px;
+    height: 30px;
+    outline: none;
+}
+
+.btn {
+    width: 50px;
+    margin-left: 8px;
+    height: 30px;
+    font-size: 1rem;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.text ul {
+    position: relative;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    margin: 10px;
+}
+
+.text ul i {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
